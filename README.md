@@ -7,12 +7,12 @@ multiple times.
 
 Dotfiles uses [Dotbot][dotbot] for installation.
 
-For more look [Anish Athalye Dotfiles][dotfiles-anish] repo that this is based on.
+This is based on [Anish Athalye Dotfiles][dotfiles-anish] repo, check it for more.
 
 License
 -------
 
-Copyright (c) 2013-2017 Anish Athalye. Released under the MIT License. See
+Copyright (c) 2017 charliebwup@gmail.com. Released under the MIT License. See
 [LICENSE.md][license] for details.
 
 [dotfiles-anish]:https://github.com/anishathalye/dotfiles 
