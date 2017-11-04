@@ -6,7 +6,8 @@
 - clean: ['~']
 
 - link:
-    ~/.profile: profile
-    ~/.bashrc: bashrc
-
+    ~/.bash:    
+    ~/.bashrc:
+    ~/.profile:
+    ~/.shell:
 
