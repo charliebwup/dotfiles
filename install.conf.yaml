@@ -11,3 +11,13 @@
     ~/.profile:
     ~/.shell:
     ~/.tmux.conf:
+    ~/.vim:
+    ~/.vimrc:
+
+- shell:
+    - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
+    # the following have to run after linking ~/.gitconfig
+    - git update-submodules
+    - >
+      git cleanall -f
+      vim/bundle/

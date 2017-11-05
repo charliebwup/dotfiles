@@ -11,6 +11,9 @@ alias l='ls'
 alias cp='cp -i'
 alias mv='mv -i'
 
+# Aliases for default parameters for commands
+alias md='mkdir -p'
+
 # git related aliases
 alias gag='git exec ag'
 
@@ -126,3 +129,17 @@ alias mirrorsite='wget -m -k -K -E -e robots=off'
 
 # Mirror stdout to stderr, useful for seeing data going through a pipe
 alias peek='tee >(cat 1>&2)'
+
+
+XCLIP=$(command -v xclip)
+[[ $XCLIP ]] && alias pbcopy="$XCLIP -selection clipboard" && alias pbpaste="$XCLIP -selection clipboard -o"
+
+# to use it just install xclip on your distribution and it would work like:
+# $ echo "hello" | pbcopy
+# $ pbpaste
+# hello
+# very useful for things like:
+# cat ~/.ssh/id_rsa.pub | pbcopy
+# have fun!
+
+
