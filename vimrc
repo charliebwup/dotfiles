@@ -1,4 +1,4 @@
-set nocompatible
+set nocp " no compatible mode
 
 "--------------
 " Load pathogen
@@ -8,7 +8,7 @@ call pathogen#infect()
 call pathogen#helptags()
 
 "------------------
-Syntax and indent
+" Syntax and indent
 "------------------
 syntax on " turn on syntax highlighting
 set showmatch " show matching braces when text indicator is over them
