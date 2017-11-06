@@ -23,3 +23,5 @@
     - >
       git cleanall -f
       vim/bundle/
+      tmux/plugins/
+      shell/plugins/
