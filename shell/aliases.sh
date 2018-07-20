@@ -17,6 +17,12 @@ alias md='mkdir -p'
 # git related aliases
 alias gag='git exec ag'
 
+# custom aliases
+# GetPorts
+gp() {
+    grep "/tcp" "${1}" |cut -d '/' -f1 | tr '\n' ',' |sed 's/,$//'
+}
+
 # Update dotfiles
 dfu() {
     (
